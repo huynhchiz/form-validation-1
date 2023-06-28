@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+</head>
+<body>
+    <div class="app grid__full-width">
+        <!-- HEADER -->
+        <header class="header">
+            <!-- HEADER-NAVBAR -->
+            <nav class="header__navbar grid">
+                <div class="navbar-left">
+                    <div class="navbar-left__seller">
+                        <span>Kênh Người Bán</span>
+                    </div>
+                    <div class="navbar-left__start-selling">
+                        <span>Trở thành Người bán Shopee</span>
+                    </div>
+                    <div class="navbar-left__download">
+                        <span>Tải ứng dụng</span>
+                        <div class="navbar-left-download__popup">
+                            <div class="download-popup__main">
+                                <div class="download-popup-qr">
+                                    <img src="./assets/img/popup/qr.png" alt="">
+                                </div>
+                                <div class="download-popup-store">
+                                    <img src="./assets/img/popup/as.png" alt="">
+                                    <img src="./assets/img/popup/gp.png" alt="">
+                                    <img src="./assets/img/popup/ag.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-left__follow-us">
+                        <span>Kết nối</span>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <div class="navbar-right__noti">
+                        <div class="navbar-right-noti__title">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>Thông Báo</span>
+                        </div>
+
+                        <div class="navbar-right-noti__popup">
+                            <i class="fas fa-caret-up"></i>
+                            <div class="noti-popup__main">
+                                <div class="noti-popup-main__title">
+                                    <img src="./assets/img/popup/noti.png" alt="">
+                                    <span>Đăng nhập để xem Thông báo</span>
+                                </div>
+                                <div class="noti-popup-main__sign">
+                                    <div class="noti-popup-main__sign-in">
+                                        <span>Đăng ký</span>
+                                    </div>
+                                    <div class="noti-popup-main__sign-up">
+                                        <span>Đăng nhập</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="navbar-right__support">
+                        <i class="fa-regular fa-circle-question"></i>
+                        <span>Hỗ Trợ</span>
+                    </div>
+                    <div class="navbar-right__language">
+                        <div class="navbar-right-language__title">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>Tiếng Việt</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>                        
+                        <div class="navbar-right-language__popup">
+                            <i class="fas fa-caret-up"></i>
+                            <div class="language-popup__main">
+                                <div class="language-popup-main_VN">
+                                    <p>Tiếng Việt</p>
+                                </div>
+                                <div class="language-popup-main_ENG">
+                                    <p>English</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-right__sign-up">
+                        <span>Đăng Ký</span>
+                    </div>
+                    <div class="navbar-right__sign-in">
+                        <span>Đăng Nhập</span>
+                    </div>
+                </div>
+            </nav>
+            <!-- HEADER SEARCH -->
+            <div class="header__search grid">
+                <div class="search__logo">
+                    <img src="./assets/img/logoshopee.png" alt="">
+                </div>
+
+                <div class="search__middle">
+
+                    <div class="search-middle__search-bar">
+                        <div class="search-bar__main">
+                            <form class="" action="" role="search" autocomplete="off">
+                                <input maxlength="128"autocomplete="of" type="text">
+                            </form>
+                            <div class="search-bar__main-result">
+                                
+                            </div>
+                        </div>
+                        <div class="search-bar__button">
+
+                        </div>
+                    </div>
+
+                    <div class="search-middle__search-suggest">
+                    </div>
+                </div>
+
+                <div class="search__cart">
+                    <div class="search-cart__div">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="search-cart__popup">
+                        <div class="search-cart-popup__arrow"></div>
+                        <div class="search-cart-popup__main">
+                            <div class="search-cart-popup-main__content">
+                                <img src="./assets/img/popup/cart-main.png" alt="">
+                                <span>Chưa Có Sản Phẩm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTAINER -->
+        <div class="container">
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+        </footer>
+
+        <!-- MODAL -->
+        <div class="modal">
+            <!-- modal-sign in -->
+            <form action="" method="post" class="modal__sign-in">
+                <header class="modal-sign-in__header">
+                    <span class="modal-sign-in-header__left">
+                        Đăng nhập
+                    </span>
+                    <div class="modal-sign-in-header__right">
+                        <div class="modal-sign-in-header-right__title">
+                            <p>Đăng nhập với mã QR</p>
+                        </div>
+                        <div class="modal-sign-in-header-right__qr">
+                            <img src="./assets/img/QR-sign.png" alt="">
+                        </div>
+                    </div>
+                </header>
+                <div class="modal-sign-in__main">
+                    
+                    <div class="modal-sign-in-main__form-group modal-sign-in-main__username">
+                        <input class="modal-sign-in-main-username__input" type="text" 
+                        placeholder="Email/Số điện thoại/Tên đăng nhập" autocomplete="on" maxlength="128" name="username">
+                        <div class="modal-sign-in--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-in-main__form-group modal-sign-in-main__password">
+                        <div class="modal-sign-in-main-password__input-div">
+                            <input class="modal-sign-in-main-password__input" type="password" name="password" 
+                            placeholder="Mật khẩu" autocomplete="current-password">
+                            <div class="modal-sign-in-main-password__eye-btn modal-sign-in-main-password__eye-btn--closed">
+                                <i class="fas fa-eye modal-eye-opened"></i>
+                                <i class="fas fa-eye-slash modal-eye-closed"></i>
+                            </div>
+                        </div>
+                        <div class="modal-sign-in--warn"></div>
+                    </div>
+
+                    <button class="modal-big-sign__button" type="submit">
+                        ĐĂNG NHẬP
+                    </button>                    
+                    <div class="modal-sign-in-main__function">
+                        <a class="modal-sign-in-main-function__forget-PW" href="">Quên mật khẩu</a>
+                        <a class="modal-sign-in-main-function__sign-with-SMS" href="">Đăng nhập với SMS</a>
+                    </div>
+                    <div class="modal__separate-under-big-btn">
+                        <div class="modal-separate-under-big-btn__line"></div>
+                        <span>HOẶC</span>
+                        <div class="modal-separate-under-big-btn__line"></div>
+                    </div>
+                    <div class="modal-sign-main__network-sign-button">
+                        <button class="modal-sign-main-fb-button" type="button">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </button>
+                        <button class="modal-sign-main-gg-button" type="button">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </button>
+                    </div>
+                </div>
+                <footer class="modal-sign-in__footer">
+                    <span class="modal-sign-in-footer__title">Bạn mới biết đến Shopee?</span>
+                    <span class="modal-sign-in-footer__sign">Đăng ký</span>
+                </footer>
+            </form>
+
+
+            <!-- modal sign up -->
+            <form action="" method="post" class="modal__sign-up">
+                <header class="modal-sign-up__header">
+                    <span class="modal-sign-up-header__left">
+                        Đăng ký
+                    </span>
+                </header>
+
+                <div class="modal-sign-up__main">
+                    <div class="modal-sign-up-main__form-group">
+                        <input class="modal-sign-up-main__input modal-sign-up-main__phonenumber" type="number" 
+                        placeholder="Số điện thoại" autocomplete="on" maxlength="128" name="phonenumber">
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <input class="modal-sign-up-main__input modal-sign-up-main__fullname" type="text" 
+                        placeholder="Họ và tên" autocomplete="on" maxlength="128" name="name">
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <input class="modal-sign-up-main__input modal-sign-up-main__email" type="email" 
+                        placeholder="Email" autocomplete="on" maxlength="128" name="email">
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <input class="modal-sign-up-main__input modal-sign-up-main__password" type="password" 
+                        placeholder="Mật khẩu" autocomplete="on" maxlength="128" name="password">
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <input class="modal-sign-up-main__input modal-sign-up-main__password-confirm" type="password" 
+                        placeholder="Nhập lại mật khẩu" autocomplete="on" maxlength="128" name="passwordconfirm">
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group form-group__avatar">
+                        <input id="modal-sign-up-main__avatar" class="modal-sign-up-main__input modal-sign-up-main__avatar" type="file" name="avatar">
+                        <!-- <label name="avatarlabel" for="modal-sign-up-main__avatar">Chọn ảnh đại diện</label> -->
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <input type="radio" name="gender" class="modal-sign-up-main__input-gender" value="male"> Nam
+                        <input type="radio" name="gender" class="modal-sign-up-main__input-gender" value="female"> Nữ
+                        <input type="radio" name="gender" class="modal-sign-up-main__input-gender" value="other"> Khác
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+                    
+                    <div class="modal-sign-up-main__form-group">
+                        <span class="hobby-title" for="hobby">Sở thích</span>
+                        <input type="checkbox" name="hobby" class="modal-sign-up-main__input-hobby" value="swim"> Bơi
+                        <input type="checkbox" name="hobby" class="modal-sign-up-main__input-hobby" value="dance"> Múa
+                        <input type="checkbox" name="hobby" class="modal-sign-up-main__input-hobby" value="gym"> Gym
+                        <input type="checkbox" name="hobby" class="modal-sign-up-main__input-hobby" value="soccer"> Bóng đá
+                        <input type="checkbox" name="hobby" class="modal-sign-up-main__input-hobby" value="other"> Khác
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    <div class="modal-sign-up-main__form-group">
+                        <select name="province" class="modal-sign-up-main__select-province">
+                            <option value="">-- Chọn Tỉnh / TP --</option>
+                            <option value="hni">Hà Nội</option>
+                            <option value="hcmh">TP Hồ Chí Minh</option>
+                            <option value="bdg">Bình Dương</option>
+                        </select>
+                        <div class="modal-sign-up--warn"></div>
+                    </div>
+
+                    
+                    <button class="modal-big-sign__button modal-sign-up-main__next-btn" type="submit">
+                        TIẾP THEO
+                    </button>
+                    <div class="modal__separate-under-big-btn modal__separate-under-big-btn--sign-up">
+                        <div class="modal-separate-under-big-btn__line"></div>
+                        <span>HOẶC</span>
+                        <div class="modal-separate-under-big-btn__line"></div>
+                    </div>
+                    <div class="modal-sign-main__network-sign-button">
+                        <button class="modal-sign-main-fb-button" type="button">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </button>
+                        <button class="modal-sign-main-gg-button" type="button">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </button>
+                    </div>
+                    <div class="modal-sign-up-main__rules">
+                        <span class="modal-sign-up-main-rule__line1">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                        </span>
+                        <span class="modal-sign-up-main-rule__line2">
+                            <a href="">Điều khoản dịch vụ</a> &
+                            <a href="">Chính sách bảo mật</a>
+                        </span>
+                    </div>
+                </div>
+
+                <footer class="modal-sign-up__footer">
+                    <span class="modal-sign-up-footer__title">Bạn đã có tài khoản?</span>
+                    <span class="modal-sign-up-footer__sign">Đăng nhập</span>
+                </footer>
+            </form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7a3791636a.js" crossorigin="anonymous"></script>
+    <script type="module" src="./app.js"></script>
+    <script src="./validator.js"></script>
+</body>
+</html>
